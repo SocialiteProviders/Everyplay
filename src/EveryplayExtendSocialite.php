@@ -6,7 +6,9 @@ use SocialiteProviders\Manager\SocialiteWasCalled;
 class EveryplayExtendSocialite
 {
     /**
-     * Execute the provider.
+     * Register the provider.
+     *
+     * @param \SocialiteProviders\Manager\SocialiteWasCalled $socialiteWasCalled
      */
     public function handle(SocialiteWasCalled $socialiteWasCalled)
     {
