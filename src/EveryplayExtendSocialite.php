@@ -1,4 +1,5 @@
 <?php
+
 namespace SocialiteProviders\Everyplay;
 
 use SocialiteProviders\Manager\SocialiteWasCalled;
